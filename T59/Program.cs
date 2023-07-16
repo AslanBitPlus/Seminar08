@@ -79,7 +79,6 @@ int[,] ChangeMatrix(int[,] array)
     return arr;
 }
 
-
 // =======================
 int[,] rndMatrix = CreateMatrixRndInt(3, 3, -9, 18);
 PrintIntMatrix(rndMatrix);
