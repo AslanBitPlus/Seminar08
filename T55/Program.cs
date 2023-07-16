@@ -34,7 +34,7 @@ void PrintIntMatrix(int[,] array)
 
 
 // Меняем строки на столбцы
-void SwapRowsToColumnsMatrix1(int[,] array)
+void SwapRowsToColumnsMatrix(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i ++)
     {
@@ -57,7 +57,7 @@ if (rndMatrix.GetLength(0) != rndMatrix.GetLength(1))
     Console.WriteLine("В массиве невозможно поменять строки на столбцы!");
 else
 {
-    SwapRowsToColumnsMatrix1(rndMatrix);
+    SwapRowsToColumnsMatrix(rndMatrix);
     PrintIntMatrix(rndMatrix);
 }
 
