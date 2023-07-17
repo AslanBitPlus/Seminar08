@@ -37,8 +37,7 @@ void PrintIntMatrix(int[,] array)
     }
 }
 
-// Находим минимальный элемент 
-// и удаляем строку и столбец пересечения
+// Сортировка строк двумерного массива по убыванию
 void SortRowsMatrix(int[,] array)
 {
     int[] arr = new int[array.GetLength(0)];
