@@ -6,7 +6,7 @@
 // 26(1,0,1) 55(1,1,1)
 
 
-// Создание двумерного массива заполненного случайными числами
+// Создание трехмерного массива заполненного неповторяющимися двузначными числами
 int[,,] Create3dMatrixRndInt(int rows, int columns, int depth)
 {
     int[,,] matrix = new int[rows, columns, depth];
@@ -25,7 +25,7 @@ int[,,] Create3dMatrixRndInt(int rows, int columns, int depth)
     return matrix;
 }
 
-// Печать двумерного массива
+// Печать трехмерного массива
 void PrintInt3dMatrix(int[,,] array)
 {
     for (int i = 0; i < array.GetLength(0); i ++)
